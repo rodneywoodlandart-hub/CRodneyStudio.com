@@ -2,12 +2,14 @@
 
 Portfolio and storefront for Rodney Woodland Jr.
 
+Custom domain: `CRodneyStudio.com`
+
 ## Before launch
 
-1. Add optimized artwork and artist images to an `images` folder and replace the placeholders in `index.html`.
-2. Replace each disabled purchase button with its matching Stripe Payment Link.
-3. Enable GitHub Pages for the `main` branch.
-4. Configure the custom domain `store.rodneywoodland.com` in GitHub Pages and with the domain provider.
+1. Confirm GitHub Pages deploys from the `main` branch and repository root.
+2. Configure the apex-domain DNS records for `CRodneyStudio.com` with the domain registrar.
+3. Enter `CRodneyStudio.com` under **Settings > Pages > Custom domain** if GitHub does not detect the included `CNAME` file automatically.
+4. Enable **Enforce HTTPS** after GitHub verifies DNS.
 5. Confirm product inventory, shipping destinations, taxes, and final refund terms.
 
 Contact: Rodneywoodland.art@gmail.com
